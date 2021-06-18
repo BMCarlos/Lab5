@@ -27,7 +27,7 @@ public class MCCAirport {
 			  landing.enqueue(i);
 		  }
 		  if(randomgenerator(TAKE_OFF_RATE)) {
-			  takeOffs.enqueue(i);  
+			  takeoff.enqueue(i);  
 		  }
 		  
 		  while(true) {
@@ -40,8 +40,9 @@ public class MCCAirport {
 	}
 		  }
 	
-	while (!landings.isEmpty()) {
+	while (!landing.isEmpty()) {
 		
+	}
 	}
 	
 	 public static boolean randomgenerator(double parameter) {
